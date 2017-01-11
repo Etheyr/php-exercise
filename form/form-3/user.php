@@ -1,0 +1,1 @@
+<p>Bonjour <?php echo $_GET['name'] . ' ' . $_GET['lastname']; ?> !</p>
