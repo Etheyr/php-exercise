@@ -1,0 +1,1 @@
+<p>Bonjour <?php echo $_GET['semaine']; ?> !</p>
