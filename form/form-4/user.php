@@ -1,0 +1,1 @@
+<p>Bonjour <?php echo $_POST['name'] . ' ' . $_POST['lastname']; ?> !</p>
