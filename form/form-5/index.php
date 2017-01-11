@@ -19,7 +19,6 @@
 
 	</form>
 
-	<p>Bonjour <?php echo $_GET['genre'] . ' ' . $_GET['name'] . ' ' . $_GET['lastname']; ?> </p>
 	
 </body>
 </html>
