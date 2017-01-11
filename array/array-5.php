@@ -9,5 +9,5 @@ $numD = array(
 
 );
 
-echo $numD[59];
+
 ?>
