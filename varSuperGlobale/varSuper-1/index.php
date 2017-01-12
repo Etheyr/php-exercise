@@ -8,19 +8,23 @@
 </head>
 <body>
 	<div id="sizeForm">
-		<div class="ui inverted segment">
-			<div class="ui inverted form">
+		<div class="ui  segment">
+			<div class="ui  form">
 				<div class="field">
-					<label>User Agent</label>
-					<input  type="text" value="<?php echo $_SERVER["HTTP_USER_AGENT"];?>">
+					<label id="labelI">User Agent</label>
+					<input id="inputC"  type="text" value="<?php echo $_SERVER["HTTP_USER_AGENT"];?>">
 				</div>
 				<div class="field">
-					<label>Adresse IP</label>
-					<input  type="text" value="<?php echo $_SERVER["REMOTE_ADDR"];?>">
+					<label id="labelI">Adresse IP</label>
+					<input id="inputC"  type="text" value="<?php echo $_SERVER["REMOTE_ADDR"];?>">
 				</div>
 				<div class="field">
-					<label>Server Name</label>
-					<input  type="text" value="<?php echo $_SERVER["SERVER_NAME"];?>">
+					<label  id="labelI">Server Name</label>
+					<input id="inputC" type="text" value="<?php echo $_SERVER["SERVER_NAME"];?>">
+				</div>
+				<div class="field">
+					<label id="labelI">Server Port</label>
+					<input id="inputC" type="text" value="<?php echo $_SERVER["SERVER_PORT"];?>">
 				</div>
 			</div>
 		</div>
