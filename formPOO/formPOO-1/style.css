@@ -1,0 +1,20 @@
+#sizeForm {
+	width: 30em;
+	margin-top: 15em;
+	margin-left: 37em;
+	box-shadow: 1px 1px 12px #555;
+	text-align: center;
+
+}
+body {
+	background-color: #30A9DE;
+}
+#labelI {
+	font-size: 20px;
+	color: #383A3F;
+	font-family: "Open sans", Sans-serif; 
+}
+#inputC {
+	color: grey;
+	font-family: "Open sans", Sans-serif; 
+}
